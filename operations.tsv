@@ -1,0 +1,14 @@
+initial value			
+A	1		
+B	3		
+C	4		
+operations			
+Transaction Number	R or W	Subject	description
+1	R	A	
+1		B	A+3
+1	W	B	
+2	R	B	
+2	R	A	
+2	W	A	
+3	R	C	
+3	W	C	
